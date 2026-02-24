@@ -1,6 +1,13 @@
 * {box-sizing: border-box;}
 
+html, body {
+    height: 100%;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     margin: 0;
     font-family: rial, Helvetica, sans-serif;
     background: beige;
@@ -56,15 +63,13 @@ img {
     gap: 14px;
     padding: 0;
     margin: 0;
-}
-
-.nav-links a {
-    padding: 6px 10px;
-    border-radius: 6px;
-}
-
-.nav-links a:hover {
-    background: gray;
+    a {
+        padding: 6px 10px;
+        border-radius: 6px;
+    }
+    a:hover {
+        background: gray;
+    }
 }
 
 .btn {
@@ -87,6 +92,10 @@ img {
 
 .hero {
     padding: 50px 0;
+    h1 {
+        margin: 0 0 10px;
+        font-size: 40px;
+    }
 }
 
 .hero-grid {
@@ -94,11 +103,6 @@ img {
     grid-template-columns: 1.1fr 0.9fr;
     gap: 22px;
     align-items: center;
-}
-
-.hero h1 {
-    margin: 0 0 10px;
-    font-size: 40px;
 }
 
 .hero-actions {
@@ -136,14 +140,12 @@ img {
 
 .card-body {
     padding: 12px;
-}
-
-.card-body h3 {
-    margin: 0 0 6px;
-}
-
-.card-body p {
-    margin: 0;
+    h3 {
+        margin: 0 0 6px;
+    }
+    p {
+        margin: 0;
+    }
 }
 
 .price {
@@ -184,3 +186,9 @@ img {
     }
 }
 
+.site-footer {
+    background: white;
+    border-top: 1px solid gray;
+    padding: 18px 0;
+    text-align: center;
+}
