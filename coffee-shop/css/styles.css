@@ -69,6 +69,7 @@ img {
     }
     a:hover {
         background: gray;
+        color: white;
     }
 }
 
@@ -80,10 +81,20 @@ img {
     font-weight: bold;
 }
 
+.btn:hover {
+    background: gray;
+}
+
 .btn-outline {
     background: transparent;
     border: 1px solid sienna;
     color: sienna;
+}
+
+.btn-outline:hover {
+    background: gray;
+    color: white;
+    border: 1px solid gray;
 }
 
 .btn-small {
