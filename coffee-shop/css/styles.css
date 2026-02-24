@@ -133,3 +133,54 @@ img {
     height: 160px;
     object-fit: cover;
 }
+
+.card-body {
+    padding: 12px;
+}
+
+.card-body h3 {
+    margin: 0 0 6px;
+}
+
+.card-body p {
+    margin: 0;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    align-items: start;
+}
+
+.map-box {
+    background: lightgray;
+    border-radius: 10px;
+    padding: 18px;
+    min-height: 180px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 520px;
+    display: grid;
+    gap: 12px;
+    label {
+        display: grid;
+        gap: 6px;
+        font-weight: bold;
+    }
+    input, textarea {
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 8px;
+        font: inherit;
+    }
+}
+
