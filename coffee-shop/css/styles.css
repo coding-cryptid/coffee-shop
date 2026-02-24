@@ -20,6 +20,10 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    margin-left: 12px;
+}
+
 img {
     max-width: 100%;
     display: block;
@@ -104,7 +108,7 @@ img {
 .hero {
     padding: 50px 0;
     h1 {
-        margin: 0 0 10px;
+        margin: 0 0 2px;
         font-size: 40px;
     }
 }
@@ -138,9 +142,10 @@ img {
 
 .card {
     background: white;
-    border: 1ps solid lightgray;
+    border: 1px solid lightgray;
     border-radius: 10px;
     overflow: hidden;
+    margin: 12px;
 }
 
 .card img {
